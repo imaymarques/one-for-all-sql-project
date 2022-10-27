@@ -5,7 +5,7 @@ DROP DATABASE IF EXISTS SpotifyClone;
   CREATE TABLE SpotifyClone.plans(
     plan_id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
     plan_name VARCHAR(50) NOT NULL,
-    amount DECIMAL(3, 2) NOT NULL
+    amount DECIMAL(5, 2) NOT NULL
   ) engine = InnoDB;
 
   INSERT INTO SpotifyClone.plans (plan_name, amount)
@@ -81,14 +81,14 @@ DROP DATABASE IF EXISTS SpotifyClone;
   INSERT INTO SpotifyClone.songs (album_id, song_title, endurance)
   VALUES
     (1, 'BREAK MY SOUL', 279),
-    (1, 'VIRGO`S GROOVE', 369),
+    (1, 'VIRGO’S GROOVE', 369),
     (1, 'ALIEN SUPERSTAR', 116),
-    (2, 'Don`t Stop Me Now', 203),
+    (2, 'Don’t Stop Me Now', 203),
     (3, 'Under Pressure', 152),
     (4, 'Como Nossos Pais', 105),
     (5, 'O Medo de Amar é o Medo de Ser Livre', 207),
     (6, 'Samba em Paris', 267),
-    (7, 'The Bard`s Song', 244),
+    (7, 'The Bard’s Song', 244),
     (8, 'Feeling Good', 100);
 
   CREATE TABLE SpotifyClone.historic(
