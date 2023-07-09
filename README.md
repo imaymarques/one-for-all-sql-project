@@ -30,7 +30,7 @@ ________________________________________________________________________________
 
 ## Overview
 
-Hello everyone! I'm thrilled to share with you my journey through the SpotifyClone SQL project. This project allowed me to practice and apply my SQL knowledge and skills in a realistic scenario. I had the opportunity to create a SQL database, design normalized tables, populate them with data, and perform various queries to extract valuable information.
+This project allowed me to practice and apply my SQL knowledge and skills in a realistic scenario. I had the opportunity to create a SQL database, design normalized tables, populate them with data, and perform various queries to extract valuable information.
 
 ## Project Highlights
 
